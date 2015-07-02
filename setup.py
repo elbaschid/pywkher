@@ -7,7 +7,7 @@ setup(
     author='Jason Mayfield',
     author_email='jason@codetalk.rs',
     packages=['pywkher', ],
-    scripts=['bin/wkhtmltopdf-heroku'],
+    data_files=[('bin', ['wkhtmltopdf-heroku'])],
     description='wkhtmltopdf for Python on Heroku',
     long_description=open('README.rst').read(),
     classifiers=[
